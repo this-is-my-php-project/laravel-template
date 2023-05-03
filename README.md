@@ -15,11 +15,11 @@ Install dependencies:
 ## Commands
 
 Generate a new module:
+--controller option is define user-end module. Default is admin-end module.
 
-    --controller option is define user-end module. Default is admin-end module.
-    ```
+-   ```
     php artisan make:module Post
     ```
-    ```
+-   ```
     php artisan make:module Post --controller=User
     ```
