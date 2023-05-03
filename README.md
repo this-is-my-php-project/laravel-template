@@ -10,15 +10,13 @@ With this template, you can create new modules with a single command using Larav
 
 Install dependencies:
 
-    ```
     composer install
-    ```
 
 ## Commands
 
 Generate a new module:
 
--   --controller option is define user-end module. Default is admin-end module.
+    --controller option is define user-end module. Default is admin-end module.
     ```
     php artisan make:module Post
     ```
