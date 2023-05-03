@@ -1,50 +1,27 @@
-<p align="center"><img src="https://example.com/logo.png" width="400"></p>
-
-<p align="center">
-    <a href="https://github.com/username/repo/actions"><img src="https://github.com/username/repo/workflows/tests/badge.svg" alt="Build Status"></a>
-    <a href="https://packagist.org/packages/username/repo"><img src="https://img.shields.io/packagist/dt/username/repo" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/username/repo"><img src="https://img.shields.io/packagist/v/username/repo" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/username/repo"><img src="https://img.shields.io/packagist/l/username/repo" alt="License"></a>
-</p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 ## About
 
-[Short description of the project]
+This Laravel code template is designed to help you get started quickly with a solid foundation of object-oriented PHP principles. It provides a structure for your Laravel projects that is both scalable and easy to maintain.
+
+With this template, you can create new modules with a single command using Laravel's built-in command line interface. Each module comes with its own set of controllers, service, repo, model, and more, all organized in a logical file structure.
 
 ## Installation
 
 Install dependencies:
-composer update
 
-## Usage
-
-[Instructions on how to use the project]
+    ```
+    composer install
+    ```
 
 ## Commands
 
 Generate a new module:
 
--   without input `--controller` option module would be admin
+-   --controller option is define user-end module. Default is admin-end module.
     ```
     php artisan make:module Post
     ```
--   input `--controller` option module would be that option
     ```
     php artisan make:module Post --controller=User
     ```
-
-## Contributing
-
-[Instructions on how to contribute to the project]
-
-## Code of Conduct
-
-[Link to the project's code of conduct]
-
-## Security Vulnerabilities
-
-[Instructions on how to report security vulnerabilities]
-
-## License
-
-[License information for the project]
